@@ -24,6 +24,17 @@ text-align:center;
 border-bottom:1px solid gray;
 margin:0px;
 padding:20px;
+}
+  #grid{
+   display:grid;
+   grid-template-columns: 150px 1fr;
+}
+3#grid ol{
+  padding-left: 33px;
+}
+#grid #article{
+  padding-left: 25px;
+}
   }
 </style>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7BXLYGWDVQ"></script>
@@ -38,12 +49,14 @@ padding:20px;
 </head>
 <body>
 <h1><a href="index.html">WEB</a></h1>
+<div id="grid">
 <ol>
     <li><a href="1.html">HTML</a></li>
     <li><a href="2.html">CSS</a></li>
     <li><a href="3.html"
     style="color:red;text-decoration:underline">JavaScript</a></li>
 </ol>
+<div id="article">
 <h2>JavaScript</h2>
 <p>
   JavaScript (/ˈdʒɑːvəskrɪpt/),[10] often abbreviated JS, is a programming language
@@ -58,6 +71,8 @@ padding:20px;
   for working with text, dates, regular expressions, standard data structures,
   and the Document Object Model (DOM).
 </P>
+</div>
+</div>
 <p>
   <div id="disqus_thread"></div>
   <script>
